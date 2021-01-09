@@ -73,6 +73,17 @@ p{
     right: 30%;
 }
 
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
 /* Features Section */
 
 #features {
@@ -136,4 +147,31 @@ p{
 
 .pricing-col {
     padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    color: #fff;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
 }
