@@ -1,3 +1,6 @@
 [submodule "Newsletter-Signup"]
 	path = Newsletter-Signup
 	url = https://github.com/kasyapArchit/Newsletter-Signup
+[submodule "Node/Newsletter-Signup"]
+	path = Node/Newsletter-Signup
+	url = https://github.com/kasyapArchit/Newsletter-Signup
